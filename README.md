@@ -27,9 +27,7 @@
 - Tabular **Q-Learning** 사용
 - ε-greedy policy로 exploration / exploitation 균형
 - Update rule:
-$$
-Q(s,a) \leftarrow (1-\alpha)Q(s,a) + \alpha(r + \gamma \max_a Q(s',a))
-$$
+$$Q(s,a) \leftarrow (1-\alpha)Q(s,a) + \alpha(r + \gamma \max_a Q(s',a))$$
 
 **주요 파라미터**
 - `alpha` (learning rate)
